@@ -1,26 +1,28 @@
 import Image from 'next/image'
 
-interface TeamMemberProps {
-  name: string
-  role: string
+interface EventCardProps {
+  title: string
+  date: string
+  description: string
   image: string
-  bio: string
 }
 
-export default function TeamMember({ name, role, image, bio }: TeamMemberProps) {
+export default function EventCard({ title, date, description, image }: EventCardProps) {
   return (
-    <div className="bg-card rounded-lg shadow-lg p-6 text-center">
-      <div className="relative w-32 h-32 mx-auto mb-4 overflow-hidden rounded-full">
+    <div className="bg-card rounded-lg shadow-lg overflow-hidden">
+      <div className="relative h-48">
         <Image
           src={image}
-          alt={name}
+          alt={title}
           layout="fill"
           objectFit="cover"
         />
       </div>
-      <h3 className="text-xl font-bold mb-2">{name}</h3>
-      <p className="text-primary mb-4">{role}</p>
-      <p className="text-muted-foreground">{bio}</p>
+      <div className="p-6">
+        <h3 className="text-xl font-bold mb-2">{title}</h3>
+        <p className="text-primary mb-4">{new Date(date).toLocaleDateString()}</p>
+        <p className="text-muted-foreground">{description}</p>
+      </div>
     </div>
   )
 }
