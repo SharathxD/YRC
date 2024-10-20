@@ -4,7 +4,10 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import '@/styles/globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ 
+  subsets: ['latin'],
+  variable: '--font-sans',
+})
 
 export const metadata = {
   title: 'Youth Red Cross Club',
@@ -18,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={`${inter.variable} font-sans`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

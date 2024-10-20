@@ -18,7 +18,7 @@ interface GalleryProps {
 export default function Gallery({ items }: GalleryProps) {
   const [selectedImage, setSelectedImage] = useState<GalleryItem | null>(null)
 
-  const categories = ['All', ...new Set(items.map(item => item.category))]
+  const categories = ['All', ...Array.from(new Set(items.map(item => item.category)))]
   const [filter, setFilter] = useState('All')
 
   const filteredItems = filter === 'All' 

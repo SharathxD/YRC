@@ -4,7 +4,14 @@ import { useState } from 'react'
 import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 
-const galleryItems = [
+type GalleryItem = {
+  id: number;
+  src: string;
+  alt: string;
+  category: string;
+}
+
+const galleryItems: GalleryItem[] = [
   { id: 1, src: "/images/gallery/blood-donation-1.jpg", alt: "Blood Donation Camp", category: "Blood Donation" },
   { id: 2, src: "/images/gallery/first-aid-1.jpg", alt: "First Aid Training", category: "Training" },
   { id: 3, src: "/images/gallery/community-service-1.jpg", alt: "Community Service", category: "Community Service" },
@@ -19,12 +26,12 @@ const galleryItems = [
 const categories = ["All", "Blood Donation", "Training", "Community Service", "Disaster Relief", "Health Awareness"]
 
 export default function GalleryPage() {
-  const [filter, setFilter] = useState("All")
-  const [selectedImage, setSelectedImage] = useState(null)
+  const [filter, setFilter] = useState<string>("All")
+  const [selectedImage, setSelectedImage] = useState<GalleryItem | null>(null)
 
   const filteredGallery = filter === "All" 
     ? galleryItems 
-    : galleryItems.filter(item => item.category ===   filter)
+    : galleryItems.filter(item => item.category === filter)
 
   return (
     <div className="container py-12">

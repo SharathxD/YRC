@@ -21,14 +21,14 @@ export default function Hero() {
   }, [])
 
   return (
-    <section className="relative h-[calc(100vh-3.5rem)] overflow-hidden">
+    <section className="relative h-[calc(100vh-4rem)] overflow-hidden">
       {images.map((src, index) => (
         <motion.div
           key={src}
           initial={{ opacity: 0 }}
           animate={{ opacity: index === currentImage ? 1 : 0 }}
           transition={{ duration: 1 }}
-          className="absolute inset-0"
+          className="absolute inset-0 parallax"
         >
           <Image
             src={src}

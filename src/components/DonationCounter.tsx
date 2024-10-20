@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { motion, useAnimation } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 
-export default function DonationCounter({ target = 1000 }) {
+export default function DonationCounter({ target = 100 }) {
   const [count, setCount] = useState(0)
   const controls = useAnimation()
   const [ref, inView] = useInView({

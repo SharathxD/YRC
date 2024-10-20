@@ -25,21 +25,21 @@ export default function Home() {
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <EventCard
               title="Blood Donation Camp"
-              date="2024-05-15"
+              date="2023-7-28"
               description="Join us for our annual blood donation camp and help save lives."
               image="/images/events/blood-donation.jpg"
             />
             <EventCard
               title="First Aid Workshop"
-              date="2024-06-01"
+              date="2024-07-20"
               description="Learn essential first aid skills from certified professionals."
               image="/images/events/first-aid.jpg"
             />
             <EventCard
-              title="Community Cleanup Drive"
-              date="2024-06-15"
+              title="Fire Drill"
+              date="2024-05-08"
               description="Help us clean up our community and make it a better place for everyone."
-              image="/images/events/cleanup.jpg"
+              image="/images/events/fire-drill.jpg"
             />
           </div>
         </div>

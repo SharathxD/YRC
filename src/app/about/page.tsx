@@ -27,22 +27,22 @@ export default function AboutPage() {
       <h2 className="text-3xl font-bold mb-6 text-center">Our Team</h2>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         <TeamMember
-          name="Dr. Jane Smith"
-          role="Faculty Advisor"
-          image="/images/team/jane-smith.jpg"
-          bio="Dr. Smith has been guiding the YRC Club for over a decade, bringing her expertise in community health."
+          name="Dr. Sangeetha S"
+          role="Program Officer"
+          image="/images/team/faculty.jpg"
+          bio="Dr. Sangeetha has been guiding the YRC Club for over years, bringing her expertise in community health."
         />
         <TeamMember
-          name="John Doe"
-          role="Club President"
-          image="/images/team/john-doe.jpg"
-          bio="John is a final year student passionate about making a difference in the community through the YRC."
+          name="Kashmeera R Gowda"
+          role="Club Student President"
+          image="/images/team/vice-chairman.jpg"
+          bio="Kashmeera  is a third year student passionate about making a difference in the community through the YRC."
         />
         <TeamMember
-          name="Emily Chen"
-          role="Secretary"
-          image="/images/team/emily-chen.jpg"
-          bio="Emily manages the club's activities and ensures smooth coordination between members and the community."
+          name="Dhruthi R"
+          role="Club Student Secretary"
+          image="/images/team/secretary.jpg"
+          bio="Dhruthi manages the club's activities and ensures smooth coordination between members and the community."
         />
       </div>
     </div>
