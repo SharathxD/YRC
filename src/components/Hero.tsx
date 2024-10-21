@@ -33,8 +33,8 @@ export default function Hero() {
           <Image
             src={src}
             alt={`Hero image ${index + 1}`}
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: 'cover' }}
             priority={index === 0}
           />
         </motion.div>

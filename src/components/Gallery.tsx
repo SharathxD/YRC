@@ -60,8 +60,8 @@ export default function Gallery({ items }: GalleryProps) {
               <Image
                 src={item.src}
                 alt={item.alt}
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: 'cover' }}
                 className="rounded-lg"
               />
             </motion.div>
@@ -88,7 +88,7 @@ export default function Gallery({ items }: GalleryProps) {
                 alt={selectedImage.alt}
                 width={800}
                 height={600}
-                objectFit="contain"
+                style={{ objectFit: 'contain' }}
                 className="rounded-lg"
               />
               <button

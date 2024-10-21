@@ -57,7 +57,7 @@ export default function EventsPage() {
 
   return (
     <div className="container py-12">
-      <h1 className="text-4xl font-bold mb-8 text-center">Upcoming Events</h1>
+      <h1 className="text-4xl font-bold mb-8 text-center"> Events</h1>
       <div className="flex justify-center mb-8">
         {categories.map((category) => (
           <button

@@ -21,7 +21,7 @@ export default function MembershipPage() {
     },
     {
       question: "Is there a membership fee?",
-      answer: "There is a nominal annual membership fee of $10 to cover basic club expenses. However, we offer fee waivers for students who may need financial assistance."
+      answer: "NO !! . There isn't any sort of membership fee ."
     }
   ]
 

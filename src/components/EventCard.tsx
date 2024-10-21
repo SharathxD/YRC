@@ -14,8 +14,8 @@ export default function EventCard({ title, date, description, image }: EventCard
         <Image
           src={image}
           alt={title}
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: 'cover' }}
         />
       </div>
       <div className="p-6">

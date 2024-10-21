@@ -14,8 +14,8 @@ export default function TeamMember({ name, role, image, bio }: TeamMemberProps) 
         <Image
           src={image}
           alt={name}
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: 'cover' }}
         />
       </div>
       <h3 className="text-xl font-bold mb-2">{name}</h3>
