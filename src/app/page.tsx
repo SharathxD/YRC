@@ -21,7 +21,7 @@ export default function Home() {
       </section>
       <section id="upcoming-events" className="py-16 bg-background">
         <div className="container">
-          <h2 className="text-3xl font-bold text-center mb-8">Upcoming Events</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">Events</h2>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <EventCard
               title="Blood Donation Camp"

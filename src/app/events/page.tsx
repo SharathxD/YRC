@@ -25,7 +25,7 @@ const events = [
     title: "Talk on Antibiotics",
     date: "2023-11-22",
     description: "Help us clean up our community and make it a better place for everyone.",
-    image: "/images/events/cleanup.jpg",
+    image: "/images/events/talk_on_anti.jpg",
     category: "Talks"
   },
   {
@@ -41,7 +41,7 @@ const events = [
     title: "Talk on Good Health",
     date: "2024-05-08",
     description: "Join us for a day of health education and free health screenings.",
-    image: "/images/events/health-fair.jpg",
+    image: "/images/events/talk_health.jpg",
     category: "Health"
   }
 ]

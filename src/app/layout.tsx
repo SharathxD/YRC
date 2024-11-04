@@ -10,7 +10,7 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: 'Youth Red Cross Club',
+  title: 'BGSCET ∙ YRC',
   description: 'Official website of the Youth Red Cross Club at our college',
 }
 
