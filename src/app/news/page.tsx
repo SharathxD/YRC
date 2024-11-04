@@ -1,5 +1,5 @@
 'use client'
-
+/*
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 
@@ -40,6 +40,7 @@ const newsItems = [
     category: "Achievements"
   }
 ]
+
 
 const categories = ["All", "Events", "Achievements", "Announcements"]
 
@@ -89,3 +90,4 @@ export default function NewsPage() {
     </div>
   )
 }
+*/
