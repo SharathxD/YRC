@@ -39,13 +39,13 @@ export default function ContactPage() {
           </p>
           <div className="space-y-2">
             <p>
-              <strong>Email:</strong> yrc@college.edu
+              <strong>Email:</strong> EMAIL ID
             </p>
             <p>
-              <strong>Phone:</strong> (123) 456-7890
+              <strong>Phone:</strong> PHONE NUMBER
             </p>
             <p>
-              <strong>Address:</strong> 123 College Street, City, State 12345
+              <strong>Address:</strong> CA Site No. 6 & 7,3rd Main, Pipeline Road, Chord Rd, adj. to Mahalakshmi Metro Station, 2nd Phase, Stage 2, Mahalakshmipuram, Bengaluru, Karnataka 560086
             </p>
           </div>
           <div className="mt-6">

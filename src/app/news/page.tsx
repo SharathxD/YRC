@@ -6,37 +6,37 @@ import { motion } from 'framer-motion'
 const newsItems = [
   {
     id: 1,
-    title: "YRC Club Raises $5000 for Flood Relief",
+    title: "NEWS 1",
     date: "2024-03-15",
-    content: "Our recent fundraising campaign was a huge success, raising $5000 for flood relief efforts in the neighboring state.",
+    content: "NEWS 1 content",
     category: "Achievements"
   },
   {
     id: 2,
-    title: "Blood Donation Drive Collects 100 Units",
+    title: "NEWS 2",
     date: "2024-02-28",
-    content: "Thanks to the overwhelming support from our college community, we collected 100 units of blood in our recent drive.",
+    content: "NEWS 2 content",
     category: "Events"
   },
   {
     id: 3,
-    title: "YRC Members Attend National Conference",
+    title: "NEWS 3",
     date: "2024-01-20",
-    content: "Five of our club members represented our college at the National Youth Red Cross Conference, bringing back valuable insights and experiences.",
+    content: "NEWS 3 content",
     category: "Announcements"
   },
   {
     id: 4,
-    title: "New Partnership with Local Hospital",
+    title: "NEWS 4",
     date: "2023-12-10",
-    content: "We're excited to announce our new partnership with City General Hospital for regular health camps and awareness programs.",
+    content: "NEWS 4 content",
     category: "Announcements"
   },
   {
     id: 5,
-    title: "YRC Club Wins Best Community Service Award",
+    title: "NEWS 5",
     date: "2023-11-05",
-    content: "Our club has been recognized with the Best Community Service Award by the State Youth Council for our consistent efforts in serving the community.",
+    content: "NEWS 5 content",
     category: "Achievements"
   }
 ]

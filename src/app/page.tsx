@@ -38,7 +38,7 @@ export default function Home() {
             <EventCard
               title="Fire Drill"
               date="2024-05-08"
-              description="Help us clean up our community and make it a better place for everyone."
+              description="Learning essential techniques to handle fire."
               image="/images/events/fire-drill.jpg"
             />
           </div>

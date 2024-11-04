@@ -24,7 +24,7 @@ const events = [
     id: 3,
     title: "Talk on Antibiotics",
     date: "2023-11-22",
-    description: "Help us clean up our community and make it a better place for everyone.",
+    description: "A brief talk on the antibiotics and its effects",
     image: "/images/events/talk_on_anti.jpg",
     category: "Talks"
   },
